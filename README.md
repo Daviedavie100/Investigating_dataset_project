@@ -62,8 +62,7 @@ Use the Project Rubric to review your project. If you are happy with your submis
 
 The top 3 most improved teams are Paris Saint_Germain, Napoli and Cracovia.
 
-![image](https://user-images.githubusercontent.com/7541585/193404818-a440edf0-5ec5-40db-986c-948543fe2774.png)
-
+![image](https://user-images.githubusercontent.com/7541585/193405265-ed2d1ed9-3ac3-4466-9816-8fa4f1733d8e.png)
 
 ## Limitations
 
