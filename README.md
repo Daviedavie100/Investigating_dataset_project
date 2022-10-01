@@ -58,6 +58,13 @@ Once you have finished analyzing the data, create a report that shares the findi
 5. **Step Five** - Review
 Use the Project Rubric to review your project. If you are happy with your submission, then you're ready to submit your project. If you see room for improvement, keep working to improve your project!
 
+## Findings
+
+The top 3 most improved teams are Paris Saint_Germain, Napoli and Cracovia.
+
+![image](https://user-images.githubusercontent.com/7541585/193404818-a440edf0-5ec5-40db-986c-948543fe2774.png)
+
+
 ## Limitations
 
 The soccer database is a very extensive data. In, seeking to address the three questions in the description, I was able to show only the correltaion between the number of goals scored in the two season. However, the other seasons were not considered.The data base had a lot of unprocessed html files under certain columns, which made take a lot of time thinking on how well they can be used in the analysis. In addition, the data had a lot of missing and duplicate values. Identifying such inconsistencies, wss realy time consuming.
