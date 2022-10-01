@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# > **Tip**: Welcome to the Investigate a Dataset project! You will find tips in quoted sections like this to help organize your approach to your investigation. Once you complete this project, remove these **Tip** sections from your report before submission. First things first, you might want to double-click this Markdown cell and change the title so that it reflects your dataset and investigation.
-# 
 # # Project: Investigate a Dataset - [Database_soccer]
 # 
 # ## Table of Contents
@@ -39,18 +37,6 @@ import numpy as np
 
 get_ipython().run_line_magic('matplotlib', 'inline')
 
-
-# # Upgrading pandas to use dataframe.explode() function. 
-# #!pip install --upgrade pandas==0.25.0
-
-# <a id='wrangling'></a>
-# ## Data Wrangling
-# 
-# > **Tip**: In this section of the report, you will load in the data, check for cleanliness, and then trim and clean your dataset for analysis. Make sure that you **document your data cleaning steps in mark-down cells precisely and justify your cleaning decisions.**
-# 
-# 
-# ### General Properties
-# > **Tip**: You should _not_ perform too many operations in each cell. Create cells freely to explore your data. One option that you can take with this project is to do a lot of explorations in an initial notebook. These don't have to be organized, but make sure you use enough comments to understand the purpose of each code cell. Then, after you're done with your analysis, create a duplicate notebook where you will trim the excess and organize your steps so that you have a flowing, cohesive report.
 
 # I want to create a function that would read csv and load for very dataset to a name variable
 
@@ -626,16 +612,12 @@ drop_cols(match, col_name='id')
 match.tail()
 
 
-# In[68]:
-
-
-# checking the contents of some columns
-match.goal.value_counts() # goal
-
+# # checking the contents of some columns
+# ```match.goal.value_counts() # goal```
 
 # From the above two cells, I realised that the coulmns goal, shoton, shotoff, foulcommit, card, cross, corner and possession contains information related to the web page but not realistic data.Checking through the nested infomation, I can't really make sense out of it since even the website link to discription is not loading. Instead of deleting the columns with such issues, I will instead drop the columns containing unprocessed data
 
-# In[69]:
+# In[68]:
 
 
 match_info=filter_col(match, col=['country_id', 'league_id', 'season', 'stage', 'date', 'match_api_id', 'home_team_api_id', 'away_team_api_id', 'home_team_goal', 'away_team_goal'])
@@ -643,7 +625,7 @@ match_info=filter_col(match, col=['country_id', 'league_id', 'season', 'stage', 
 match_info.head()
 
 
-# In[70]:
+# In[69]:
 
 
 # melt home and away teams id_vars are columns not melted
@@ -655,7 +637,7 @@ melted_match=match_info.melt(id_vars=unmelted_columns, var_name='Location', valu
 melted_match.head()
 
 
-# In[71]:
+# In[70]:
 
 
 # cleaning up or changing the location values
@@ -663,7 +645,7 @@ melted_match['Location']=melted_match['Location'].replace({'home_team_api_id':'h
 melted_match.head()
 
 
-# In[72]:
+# In[71]:
 
 
 # creating team dictionary with team api ids as the key and a longname as the value
@@ -671,7 +653,7 @@ team_dict=team.set_index('team_api_id')['team_long_name'].to_dict()
 team_dict
 
 
-# In[73]:
+# In[72]:
 
 
 # cleaning up team i.e. using team dictionary to replace team api ids
@@ -679,7 +661,7 @@ melted_match['Team']=melted_match['Team'].map(team_dict)
 melted_match.head()
 
 
-# In[74]:
+# In[73]:
 
 
 # creating goals colum
@@ -687,14 +669,14 @@ melted_match['goals']=np.where(melted_match['Location']=='home',melted_match['ho
 melted_match.head()
 
 
-# In[75]:
+# In[74]:
 
 
 drop_cols(melted_match, col_name=['home_team_goal', 'away_team_goal'])
 melted_match.head()
 
 
-# In[76]:
+# In[75]:
 
 
 melted_match.sort_values(by=['match_api_id', 'season'])
@@ -703,12 +685,10 @@ melted_match.head()
 
 # <a id='eda'></a>
 # ## Exploratory Data Analysis
-# 
-# > **Tip**: Now that you've trimmed and cleaned your data, you're ready to move on to exploration. **Compute statistics** and **create visualizations** with the goal of addressing the research questions that you posed in the Introduction section. You should compute the relevant statistics throughout the analysis when an inference is made about the data. Note that at least two or more kinds of plots should be created as part of the exploration, and you must  compare and show trends in the varied visualizations. 
 
 # # creating a function to plot different visualizations
 
-# In[77]:
+# In[76]:
 
 
 def plot_visual(data, data2, visual_type):
@@ -730,11 +710,9 @@ def plot_visual(data, data2, visual_type):
         plt.scatter(x=data, y=data2, alpha=0.8, color='blue') # creating scatter
 
 
-# > **Tip**: - Investigate the stated question(s) from multiple angles. It is recommended that you be systematic with your approach. Look at one variable at a time, and then follow it up by looking at relationships between variables. You should explore at least three variables in relation to the primary question. This can be an exploratory relationship between three variables of interest, or looking at how two independent variables relate to a single dependent variable of interest. Lastly, you  should perform both single-variable (1d) and multiple-variable (2d) explorations.
-# 
 # ### Research Question 1 What teams improved the most over the time period? 
 
-# In[78]:
+# In[77]:
 
 
 # checking the distribution of the extreme seasons
@@ -748,7 +726,7 @@ plt.ylabel('No of goals scored in 2008/2009 and 2015/2015 season')
 
 # The graph shows that the distribution of goals is right screwed. Further investigation can be shown on the boxplot
 
-# In[79]:
+# In[78]:
 
 
 # plot box plot
@@ -760,7 +738,7 @@ plt.ylabel('2008/2009 and 2015/2015 season')
 
 # The distribution is rght skewed but with severa outliers
 
-# In[80]:
+# In[79]:
 
 
 # grouping by season and team
@@ -768,7 +746,7 @@ match_s08_15=melted_match.query('season in ["2008/2009", "2015/2016"]').groupby(
 match_s08_15.head()
 
 
-# In[81]:
+# In[80]:
 
 
 # plot a scatter diagram
@@ -780,7 +758,7 @@ plt.ylabel('Season 2015/2016')
 
 # From the scatter plot, there is positive correlation between the number of goals scored in the season 2008/2009 and season 2015/2016
 
-# In[82]:
+# In[81]:
 
 
 # get difference between columns 2008/2009 and 2015/2016 seasons
@@ -788,7 +766,7 @@ goal_diff=match_s08_15.dropna().diff(axis=1)
 goal_diff.head()
 
 
-# In[83]:
+# In[82]:
 
 
 # goal difference in 2015/2016 season
@@ -796,7 +774,7 @@ goal_diff_16=goal_diff['2015/2016']
 goal_mean=goal_diff_16[goal_diff_16>(goal_diff_16.mean())].sort_values(ascending=True)
 
 
-# In[84]:
+# In[83]:
 
 
 # plot bar graph for top 10 best teams
@@ -812,7 +790,7 @@ plt.ylabel('Teams');
 
 # I want to filter and obtain the player who scored most of the penalties
 
-# In[85]:
+# In[84]:
 
 
 # obtaining the name of the player
@@ -831,14 +809,14 @@ most_pen
 
 # Getting present in 2016
 
-# In[86]:
+# In[85]:
 
 
 most_pen16=player_info.query('date>="2016.01.01"')
 most_pen16
 
 
-# In[87]:
+# In[86]:
 
 
 # get the players who had penalties more than the mean penalties
@@ -846,14 +824,14 @@ pen_mean=most_pen16[most_pen16.penalties>most_pen16.penalties.mean()]
 pen_mean.drop(['date'], axis=1)
 
 
-# In[88]:
+# In[87]:
 
 
 # droping duplicates interms of player_api_id
 pen_mean.drop_duplicates(subset=['player_api_id'])
 
 
-# In[89]:
+# In[88]:
 
 
 # creating a pie chart for the preffered leg
@@ -880,18 +858,3 @@ plt.title("PIE CHART FOR PREFfERRED LEG");
 # From the analysis and visualization, Richie Lambert is the player who scored most of the penalties. I also found that Paris Saint-Germain is the most improved team over the period of time given, followed by Napoli and Cracovia being the in the third position. Moreover, the findings also indicate that most of the penalty takers in 2016 preferred right leg compared to the right leg. The findings also shows that the distribution of the number of goals scored in the two seasons are right skewed.
 # 
 # Whereas I was able to show that there is a correltaion between the number of goals scored in the two extreme seasons (2008/2009 and 2015/2016), theer are  other seasons that were not considered. There is likelihood that a team that improved between the two seasons might not have improved in the seasons prior 2015/2016. Goal difference between the two seasons was used as a measured of improvement in performance because the ultimate objective of team managers, players and teams is to improve to score goals, but there could be criteria for measuring performance.
-# 
-# ## Submitting your Project 
-# 
-# > **Tip**: Before you submit your project, you need to create a .html or .pdf version of this notebook in the workspace here. To do that, run the code cell below. If it worked correctly, you should get a return code of 0, and you should see the generated .html file in the workspace directory (click on the orange Jupyter icon in the upper left).
-# 
-# > **Tip**: Alternatively, you can download this report as .html via the **File** > **Download as** submenu, and then manually upload it into the workspace directory by clicking on the orange Jupyter icon in the upper left, then using the Upload button.
-# 
-# > **Tip**: Once you've done this, you can submit your project by clicking on the "Submit Project" button in the lower right here. This will create and submit a zip file with this .ipynb doc and the .html or .pdf version you created. Congratulations!
-
-# In[90]:
-
-
-from subprocess import call
-call(['python', '-m', 'nbconvert', 'Investigate_a_Dataset.ipynb'])
-
