@@ -78,12 +78,10 @@ Whereas I was able to show that there is a correltaion between the number of goa
 
 ## Skills learned
 
-After completing the project, you will:
-
-Know all the steps involved in a typical data analysis process
-Be comfortable posing questions that can be answered with a given dataset and then answering those questions
-Know how to investigate problems in a dataset and wrangle the data into a format you can use
-Have experience communicating the results of your analysis
-Be able to use vectorized operations in NumPy and pandas to speed up your data analysis code
-Be familiar with pandas' Series and DataFrame objects, which let you access your data more conveniently
-Know how to use Matplotlib to produce plots showing your findings
+- The steps involved in a typical data analysis process
+- Formulating the research questions that can be answered with a given dataset and then answering those questions
+- Investigating problems in a dataset and wrangle the data into a format that can be used
+- Communicating the results of the analysis
+- Vectorized operations in NumPy and pandas to speed up your data analysis code
+- Pandas' Series and DataFrame objects
+- Matplotlib skills to produce plots showing findings
