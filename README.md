@@ -27,19 +27,15 @@ The project involves conducting data analysis; data gathering, data cleaning, da
 
 ## Dataset Description
 
-In this project, I willl be analysing ultimate soccer [dataset](https://www.kaggle.com/datasets/hugomathien/soccer), which is an open-source dataset in kaggle. The dataset is a one .sql file comprising _seven tables_, each with different(unique) but interrelated features. First, **Country table** has 11 European countries. Second, **league table** has 11 lead championship names. The country and league tables are related by their ID. Third, **match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers. 
+In this project, I willl be analysing ultimate soccer [dataset](https://www.kaggle.com/datasets/hugomathien/soccer), which is an open-source dataset in kaggle. The dataset is a one .sql file comprising _seven tables_, each with different(unique) but interrelated features. 
 
-The match table is also related to the previous tables by country_id. hird, **match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers.
-
-hird, **match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers.
-
-hird, **match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers.
-
-in the rows and 2 columns id and name I have check the shape of table to determine the nummber of rows and columns.
-
-
-
-
+- **Country table** has 11 European countries. 
+- **League table** has 11 lead championship names. The country and league tables are related by their ID. 
+- **Match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers. The match table is also related to the previous tables by country_id. 
+- **Player table** contains 11 columns including playes name, birthday, fifa_api_id, weight, and height 
+- **Player_Attributes table** has 42 player attributes.
+- **Team table** contains tema long name, short name, team api id, team fifa api id.
+- **Team_Attributes table** has 25 team attributes.
 
 ## Data Cleaning
 
