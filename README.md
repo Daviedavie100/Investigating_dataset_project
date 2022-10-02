@@ -17,7 +17,15 @@ The project involves conducting data analysis; data gathering, data cleaning, da
 
 ## Dataset Description
 
-In this project, I willl be analysing ultimate soccer dataset, which is an open-source dataset in kaggle. The dataset is a one .sql file comprising seven tables, each with different(unique) but interrelated features. First, Country table has 11 European countries. Second, league table has 11 lead championship names. The country and league tables are related by their ID. Third, match table has over 25,000 matches for different seasons as well as betting odds from upto 10 providers. The match table is also related to the previous tables by country_id. in the rows and 2 columns id and name I have check the shape of table to determine the nummber of rows and columns.
+In this project, I willl be analysing ultimate soccer [dataset](https://www.kaggle.com/datasets/hugomathien/soccer), which is an open-source dataset in kaggle. The dataset is a one .sql file comprising _seven tables_, each with different(unique) but interrelated features. First, **Country table** has 11 European countries. Second, **league table** has 11 lead championship names. The country and league tables are related by their ID. Third, **match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers. 
+
+The match table is also related to the previous tables by country_id. hird, **match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers.
+
+hird, **match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers.
+
+hird, **match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers.
+
+in the rows and 2 columns id and name I have check the shape of table to determine the nummber of rows and columns.
 
 ## Project Question(s) for Analysis
 
