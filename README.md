@@ -2,7 +2,7 @@
 
 In this project, I will analyze a soccer dataset [here](https://www.kaggle.com/datasets/hugomathien/soccer/download?datasetVersionNumber=10) and then communicate the findings about it.
 
-## ## What do I need to install?
+## What I need to install
 
 I will install Python, plus the following libraries:
 
@@ -10,8 +10,6 @@ I will install Python, plus the following libraries:
 * NumPy
 * Matplotlib
 * csv
-
- I will use the Python libraries NumPy, pandas, and Matplotlib to make the analysis easier.
 
 ## Project Details
 
