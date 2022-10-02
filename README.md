@@ -13,11 +13,7 @@ I will install Python, plus the following libraries:
 
 ## Project Details
 
-The project involves conducting data analysis; data gathering, data cleaning, data visualization as well as sharing the findings. 
-
-I'll start by assessing the dataset, and brainstorming appropriate questions could be answered using it. 
-
-Then I'll use pandas and NumPy to answer the questions and create a report sharing the answers. 
+The project involves conducting data analysis; data gathering, data cleaning, data visualization as well as sharing the findings. I'll start by assessing the dataset, and brainstorming appropriate questions could be answered using it. Then I'll use pandas and NumPy to answer the questions and create a report sharing the answers. 
 
 ## Dataset Description
 
