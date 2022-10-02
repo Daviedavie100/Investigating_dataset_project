@@ -13,7 +13,11 @@ I will install Python, plus the following libraries:
 
 ## Project Details
 
-For the final project, you will conduct your own data analysis and create a file to share that documents your findings. You should start by taking a look at your dataset and brainstorming what questions you could answer using it. Then you should use pandas and NumPy to answer the questions you are most interested in, and create a report sharing the answers. You will not be required to use inferential statistics or machine learning to complete this project, but you should make it clear in your communications that your findings are tentative. This project is open-ended in that we are not looking for one right answer.
+The project involves conducting data analysis; data gathering, data cleaning, data visualization as well as sharing the findings. 
+
+I'll start by assessing the dataset, and brainstorming appropriate questions could be answered using it. 
+
+Then I'll use pandas and NumPy to answer the questions and create a report sharing the answers. 
 
 ## Dataset Description
 
