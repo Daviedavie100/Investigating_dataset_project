@@ -1,6 +1,17 @@
 ## Project Overview
 
-In this project, I will analyze a dataset and then communicate the findings about it. I will use the Python libraries NumPy, pandas, and Matplotlib to make the analysis easier.
+In this project, I will analyze a soccer dataset [here](https://www.kaggle.com/datasets/hugomathien/soccer/download?datasetVersionNumber=10) and then communicate the findings about it.
+
+## ## What do I need to install?
+
+I will install Python, plus the following libraries:
+
+* pandas
+* NumPy
+* Matplotlib
+* csv
+
+ I will use the Python libraries NumPy, pandas, and Matplotlib to make the analysis easier.
 
 ## Project Details
 
@@ -15,15 +26,6 @@ In this project, I willl be analysing ultimate soccer dataset, which is an open-
 1. What teams improved the most over the time period?
 2. Which players had the most penalties?
 3. Which was the the most preferred leg for penalty-takers in 2016 among the players who scored more than the mean penalties in that year?
-
-## What do I need to install?
-
-I will install Python, plus the following libraries:
-
-* pandas
-* NumPy
-* Matplotlib
-* csv
 
 ## Why this Project?
 
