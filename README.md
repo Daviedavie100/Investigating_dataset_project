@@ -11,9 +11,19 @@ I will install Python, plus the following libraries:
 * Matplotlib
 * csv
 
+## Why this Project
+
+In this project, I'll go through the data analysis process and see how everything fits together.  using the Python libraries NumPy, pandas, and Matplotlib, which make writing data analysis code in Python a lot easier!
+
 ## Project Details
 
 The project involves conducting data analysis; data gathering, data cleaning, data visualization as well as sharing the findings. I'll start by assessing the dataset, and brainstorming appropriate questions could be answered using it. Then I'll use pandas and NumPy to answer the questions and create a report sharing the answers. 
+
+## Project Question(s) for Analysis
+
+1. What teams improved the most over the time period?
+2. Which players had the most penalties?
+3. Which was the the most preferred leg for penalty-takers in 2016 among the players who scored more than the mean penalties in that year?
 
 ## Dataset Description
 
@@ -27,15 +37,9 @@ hird, **match table** has over 25,000 matches for different seasons as well as b
 
 in the rows and 2 columns id and name I have check the shape of table to determine the nummber of rows and columns.
 
-## Project Question(s) for Analysis
 
-1. What teams improved the most over the time period?
-2. Which players had the most penalties?
-3. Which was the the most preferred leg for penalty-takers in 2016 among the players who scored more than the mean penalties in that year?
 
-## Why this Project?
 
-In this project, I'll go through the data analysis process and see how everything fits together.  using the Python libraries NumPy, pandas, and Matplotlib, which make writing data analysis code in Python a lot easier!
 
 ## Data Cleaning
 
