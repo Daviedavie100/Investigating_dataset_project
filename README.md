@@ -21,9 +21,9 @@ After analyzing the data, create a report that shares the findings found to be m
 **Step Five** - Review
 Use the Project Rubric to review and improve the project. 
 
-## Dataset
+## Project Details
 
-In this project, I will analyze a soccer dataset [here](https://www.kaggle.com/datasets/hugomathien/soccer/download?datasetVersionNumber=10) and then communicate the findings about it.
+The project involves conducting data analysis; data gathering, data cleaning, data visualization as well as sharing the findings. I'll start by assessing the dataset, and brainstorming appropriate questions could be answered using it. Then I'll use pandas and NumPy to answer the questions and create a report sharing the answers. 
 
 ## What I need to install
 
@@ -38,15 +38,15 @@ I will install Python, plus the following libraries:
 
 In this project, I'll go through the data analysis process and see how everything fits together using the Python libraries NumPy, pandas, and Matplotlib, which make writing data analysis code in Python a lot easier. I will also clean and combine all the seven datasets into one master dataset to be used in the analysis
 
-## Project Details
-
-The project involves conducting data analysis; data gathering, data cleaning, data visualization as well as sharing the findings. I'll start by assessing the dataset, and brainstorming appropriate questions could be answered using it. Then I'll use pandas and NumPy to answer the questions and create a report sharing the answers. 
-
-## Project Question(s) for Analysis
+## Project Questions for Analysis
 
 1. What teams improved the most over the time period?
 2. Which players had the most penalties?
 3. Which was the the most preferred leg for penalty-takers in 2016 among the players who scored more than the mean penalties in that year?
+
+## Dataset
+
+In this project, I will analyze a soccer dataset [here](https://www.kaggle.com/datasets/hugomathien/soccer/download?datasetVersionNumber=10) and then communicate the findings about it.
 
 ## Dataset Description
 
