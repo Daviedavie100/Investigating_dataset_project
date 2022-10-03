@@ -16,10 +16,12 @@ Assess the dataset and brainstorm some questions that could be answered using th
 
 **Step Four** - Share the Findings
 
-Once you have finished analyzing the data, create a report that shares the findings you found most interesting. If you use a Jupyter notebook, share your findings alongside the code you used to perform the analysis. Make sure that your report text is contained in Markdown cells to clearly distinguish your comments and findings from your code work. You should also feel free to use other tools and software to craft your final report, but make sure that you can submit your report as an HTML or PDF file so that it can be opened easily.
+After analyzing the data, create a report that shares the findings found to be most interesting.
 
-5. **Step Five** - Review
-Use the Project Rubric to review your project. If you are happy with your submission, then you're ready to submit your project. If you see room for improvement, keep working to improve your project!
+**Step Five** - Review
+Use the Project Rubric to review and improve the project. 
+
+## Dataset
 
 In this project, I will analyze a soccer dataset [here](https://www.kaggle.com/datasets/hugomathien/soccer/download?datasetVersionNumber=10) and then communicate the findings about it.
 
