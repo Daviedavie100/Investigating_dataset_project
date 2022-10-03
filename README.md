@@ -13,7 +13,7 @@ I will install Python, plus the following libraries:
 
 ## Why this Project
 
-In this project, I'll go through the data analysis process and see how everything fits together.  using the Python libraries NumPy, pandas, and Matplotlib, which make writing data analysis code in Python a lot easier!
+In this project, I'll go through the data analysis process and see how everything fits together using the Python libraries NumPy, pandas, and Matplotlib, which make writing data analysis code in Python a lot easier. I will also clean and combine all the seven datasets into one master dataset to be used in the analysis
 
 ## Project Details
 
