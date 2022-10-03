@@ -2,17 +2,13 @@
 
 This project has five major stages
 
-1. **Step One** - Choose the Data Set
+**Step One** - Choose the Data Set
 
-Click this link (available in a Google doc here) to open a document with links and information about data sets that you can investigate for this project. You must choose one of these datasets to complete the project.
+The data to be used is downloaded from the link provided in a Google doc [here]()
 
-2. **Step Two** - Get Organized
-Eventually you’ll want to submit your project (and share it with friends, family, and employers). Get organized before you begin. We recommend creating a single folder that will eventually contain:
+**Step Two** - Get Organized
 
-The report communicating your findings
-Any Python code you wrote as part of your analysis
-The data set you used (which you will not need to submit)
-You may wish to use a Jupyter notebook, in which case you can submit both the code you wrote and the report of your findings in the same document. Otherwise, you will need to submit your report and code separately. If you would like a notebook template to help organize your investigation, you can click here. Or there may be a page in the project here called Project Workspace: Complete and Submit Project, where you can do all your work and submit the project.
+Create a single folder that will eventually contain, the report communicating the findings, Python code written as part of the analysis, and the data set used.
 
 3. **Step Three** - Analyze the Data
 Brainstorm some questions you could answer using the data set you chose, then start answering those questions. You can find some questions in the data set options to help you get started.
