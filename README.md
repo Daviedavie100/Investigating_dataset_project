@@ -2,23 +2,24 @@
 
 This project has five major stages
 
-**Step One** - Choose the Data Set
+**Step One - Choose the Data Set**
 
 The data to be used is downloaded from the link provided in a Google doc [here]()
 
-**Step Two** - Get Organized
+**Step Two - Get Organized**
 
 Create a single folder that will eventually contain, the report communicating the findings, Python code written as part of the analysis, and the data set used.
 
-**Step Three** - Analyze the Data
+**Step Three - Analyze the Data**
 
 Assess the dataset and brainstorm some questions that could be answered using the dataset. These questions should aim at looking at relationships between multiple variables, clearly identifying dependent and independent variables.
 
-**Step Four** - Share the Findings
+**Step Four - Share the Findings**
 
 After analyzing the data, create a report that shares the findings found to be most interesting.
 
-**Step Five** - Review
+**Step Five - Review**
+
 Use the Project Rubric to review and improve the project. 
 
 ## Project Details
