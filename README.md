@@ -2,9 +2,7 @@
 
 This project has five major stages
 
-**Step One - Choose the Data Set**
-
-The data to be used is downloaded from the link provided in a Google doc [here]()
+1. **Choose the Data Set:** The data to be used is downloaded from the link provided in a Google doc [here]()
 
 **Step Two - Get Organized**
 
