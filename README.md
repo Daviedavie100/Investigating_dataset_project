@@ -14,11 +14,11 @@ Create a single folder that will eventually contain, the report communicating th
 
 Assess the dataset and brainstorm some questions that could be answered using the dataset. These questions should aim at looking at relationships between multiple variables, clearly identifying dependent and independent variables.
 
-**Step Four - Share the Findings**
+4.**Share the Findings**
 
 After analyzing the data, create a report that shares the findings found to be most interesting.
 
-**Step Five - Review**
+5.**Review**
 
 Use the Project Rubric to review and improve the project. 
 
