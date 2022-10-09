@@ -6,11 +6,11 @@ This project has five major stages
 
 The data to be used is downloaded from the link provided in a Google doc [here]()
 
-2.**tep Two - Get Organized**
+2.**Get Organized**
 
 Create a single folder that will eventually contain, the report communicating the findings, Python code written as part of the analysis, and the data set used.
 
-**Step Three - Analyze the Data**
+3.**Analyze the Data**
 
 Assess the dataset and brainstorm some questions that could be answered using the dataset. These questions should aim at looking at relationships between multiple variables, clearly identifying dependent and independent variables.
 
