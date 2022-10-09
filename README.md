@@ -2,9 +2,11 @@
 
 This project has five major stages
 
-1. **Choose the Data Set:** The data to be used is downloaded from the link provided in a Google doc [here]()
+1.**Choose the Data Set:** 
 
-**Step Two - Get Organized**
+The data to be used is downloaded from the link provided in a Google doc [here]()
+
+2.**tep Two - Get Organized**
 
 Create a single folder that will eventually contain, the report communicating the findings, Python code written as part of the analysis, and the data set used.
 
