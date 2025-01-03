@@ -72,7 +72,7 @@ First, I want to create functions that will help me drop duplicates, merge two d
 ### The distribution of goals throughout the seasons
 ![histogram](image.png) 
 
-
+<!-- TABLE_PLACEHOLDER -->
 
 The top 3 most improved teams are Paris Saint_Germain, Napoli and Cracovia.
 
