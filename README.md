@@ -26,7 +26,7 @@ Use the Project Rubric to review and improve the project.
 
 ## Project Details
 
-The project involves conducting data analysis; data gathering, data cleaning, data visualization as well as sharing the findings. I'll start by assessing the dataset, and brainstorming appropriate questions could be answered using it. Then I'll use pandas and NumPy to answer the questions and create a report sharing the answers. 
+The project involves conducting data analysis; data gathering, data cleaning, data visualization as well as sharing the findings. I'll start by assessing the dataset and brainstorming appropriate questions that could be answered using it. Then I'll use pandas and NumPy to answer the questions and create a report sharing the answers. 
 
 ## What I need to install
 
@@ -43,9 +43,10 @@ In this project, I'll go through the data analysis process and see how everythin
 
 ## Project Questions for Analysis
 
-1. What is the league table for the 4 major leagues in europe during 2015/2016 season?
+1. What is the league table for the 4 major leagues in Europe during 2015/2016 season?
 2. Which are the top 3 teams for each league in 2015/2016 season? 
-3. What teams improved the most over the time period?
+3. What teams improved the most over the period?
+4. What is the Peak performance age or age group for most players
 
 ## Dataset
 
@@ -57,7 +58,7 @@ In this project, I will be analyzing ultimate soccer [dataset](https://www.kaggl
 
 - **Country table** has 11 European countries. 
 - **League table** has 11 lead championship names. The country and league tables are related by their ID. 
-- **Match table** has over 25,000 matches for different seasons as well as betting odds from upto 10 providers. The match table is also related to the previous tables by country_id. 
+- **Match table** has over 25,000 matches for different seasons as well as betting odds from up to 10 providers. The match table is also related to the previous tables by country_id. 
 - **Player table** contains 11 columns including playes name, birthday, fifa_api_id, weight, and height 
 - **Player_Attributes table** has 42 player attributes.
 - **Team table** contains tema long name, short name, team api id, team fifa api id.
@@ -65,7 +66,7 @@ In this project, I will be analyzing ultimate soccer [dataset](https://www.kaggl
 
 ## Data Cleaning
 
-First, I want to create functions that will help me drop duplicates, merge two datasets, change data type, remove missing rows, drop unnecessary columns, then proceed to merge the country data to that for league. I will correct the league name for Germany 1. Bundesliga to Germany Bundesliga 1. I will also change the name column for both the country data and league data, and also make the datafrmaes have the same dimensions and finally merge the two dataframes into country_league data using the country id as the key
+First, I want to create functions that will help me drop duplicates, merge two datasets, change datatype, remove missing rows, drop unnecessary columns, then proceed to merge the country data to that for league. I will correct the league name for Germany 1. Bundesliga to Germany Bundesliga 1. I will also change the name column for both the country data and league data, and also make the dataframe have the same dimensions, and finally merge the two dataframes into country_league data using the country id as the key
 
 ## Findings
 
@@ -177,7 +178,7 @@ First, I want to create functions that will help me drop duplicates, merge two d
 ### Top 3 teams from each league in 2015/2016 season
 ![alt text](image-2.png) 
 
-### What teams improved the most over the time period? 
+### What teams improved the most over the period? 
 In this case, we use Year-Over-Year Improvements (YoY). And since, the teams played different number of matches, we normalize Points Based on Total Matches Played and then divide the points by the total matches played in each season.
 
 ![alt text](image-15.png)
