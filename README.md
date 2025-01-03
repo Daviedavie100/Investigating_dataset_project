@@ -1,4 +1,4 @@
-# InvestigatING a Dataset - [Database_soccer]
+# Investigating a Dataset - [Database_soccer]
 
 ## Project Overview
 
