@@ -1,3 +1,5 @@
+# InvestigatING a Dataset - [Database_soccer]
+
 ## Project Overview
 
 This project has five major stages
@@ -41,9 +43,9 @@ In this project, I'll go through the data analysis process and see how everythin
 
 ## Project Questions for Analysis
 
-1. What teams improved the most over the time period?
-2. Which players had the most penalties?
-3. Which was the the most preferred leg for penalty-takers in 2016 among the players who scored more than the mean penalties in that year?
+1. What is the league table for the 4 major leagues in europe during 2015/2016 season?
+2. Which are the top 3 teams for each league in 2015/2016 season? 
+3. What teams improved the most over the time period?
 
 ## Dataset
 
