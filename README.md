@@ -69,6 +69,10 @@ First, I want to create functions that will help me drop duplicates, merge two d
 
 ## Findings
 
+### The distribution of goals throughout the seasons
+![histogram](image.png)
+
+
 The top 3 most improved teams are Paris Saint_Germain, Napoli and Cracovia.
 
 ![image](https://user-images.githubusercontent.com/7541585/193405315-144e92ff-95ab-474a-8848-2ad62d4a794c.png)
