@@ -233,9 +233,9 @@ Aggregate player's data over time
 
 ## Limitations
 
-The soccer database is a very extensive data. In, seeking to address the three questions in the description, I was able to show only the correltaion between the number of goals scored in the two season. However, the other seasons were not considered.The data base had a lot of unprocessed html files under certain columns, which made take a lot of time thinking on how well they can be used in the analysis. In addition, the data had a lot of missing and duplicate values. Identifying such inconsistencies, wss realy time consuming.
+The soccer database is extensive and provides a wealth of information. In addressing the three research questions outlined in the description, I was able to uncover several insights, including goal distributions, league tables for the top four European leagues, top-performing teams in the 2015/2016 season, the most improved teams over various seasons, playing styles across leagues, player development trends, comparative analyses of player development, and peak age performance. 
 
-Another limitation is that in the creation of bar graph for the most improved teams, the bars are not sorted in order of either increasing or decreasing frequency, which would have enabled the identification of the improved teams easily. In getting the most preffered leg, it was only based on the year 2016 instead of the whole duration of time.
+However, several limitations emerged during the analysis. Other seasons, leagues, and players beyond the scope of this study were not considered. Additionally, the database contained numerous unprocessed HTML files within certain columns, requiring significant time to determine their relevance and usability in the analysis. Furthermore, the dataset exhibited a substantial number of missing and duplicate values. Identifying and addressing these inconsistencies was particularly time-consuming, adding complexity to the analysis process.
 
 ## Conclusions
 
