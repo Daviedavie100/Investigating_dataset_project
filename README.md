@@ -189,14 +189,14 @@ The most consistent improver is Napoli with a total YoY improvement of 0.9474 po
 ### Comparing Playing Style with Performance Metrics
 ![alt text](image-5.png)
 
-Radar charts helps to identify the offensive, defensive, or balanced styles of each cluster. From the performance metrics, offensive and balanced styles are the most effective playing styles
+Radar charts help to identify the offensive, defensive, or balanced styles of each cluster. From the performance metrics, offensive and balanced styles are the most effective playing styles
 
 ### League-Level Style Analysis
 This is to assess the dominant strategies in different leagues.
 
 ![alt text](image-8.png)
 
-- Italy Serie A, Scotland Premeir League and England Premier League have higher buildUpPlaySpeed, indicating a faster playing style.
+- Italy Serie A, Scotland Premier League, and England Premier League have higher buildUpPlaySpeed, indicating a faster playing style.
 - Italy Serie A focuses more on chanceCreationPassing and chanceCreationShooting.
 
 ### Tracking trends of the Player Attributes throughout the seasons
@@ -208,12 +208,12 @@ Aggregate player's data over time
 
 ![alt text](image-10.png)
 
-### Comparison betweeen Cristiano Ronaldo and Lionel Messi Development: Period 2008-2016
+### Comparison between Cristiano Ronaldo and Lionel Messi Development: Period 2008-2016
 
 ![alt text](image-11.png)
 
 ### Player Age and, Overal Performance
-- Players are at different age in different seasons
+- Players are at different ages in different seasons
 - We use birthday and date columns to calculate player age and analyze:
 - (a) Age distribution.
 - (b) Peak performance age for players.
@@ -279,7 +279,7 @@ To address these questions, the datasets were examined and cleaned. This process
 5. **Player Attribute Development**  
    - Using Mikel Arteta as an example, attributes like stamina, acceleration, and sprint speed declined with age, while short passing and ball control remained relatively stable up to a certain age limit.  
    - For Cristiano Ronaldo and Lionel Messi:  
-     - Overall ratings, finishing, and positioning trends were balanced for both players during 2008–2016.  
+     - Overall ratings, finishing, and positioning trends were balanced for both players in 2008–2016.  
      - Messi’s dribbling remained steady, while Ronaldo’s declined slightly.  
      - Messi’s stamina was consistently lower than Ronaldo’s throughout the period.  
      - Free kick accuracy improved for Messi, surpassing Ronaldo’s performance after 2012.  
@@ -295,7 +295,7 @@ While this analysis uncovered significant insights, the dataset offers potential
 
 - The steps involved in a typical data analysis process
 - Formulating the research questions that can be answered with a given dataset and then answering those questions
-- Investigating problems in a dataset and wrangle the data into a format that can be used
+- Investigating problems in a dataset and wrangles the data into a format that can be used
 - Communicating the results of the analysis
 - Vectorized operations in NumPy and pandas to speed up your data analysis code
 - Pandas' Series and DataFrame objects
