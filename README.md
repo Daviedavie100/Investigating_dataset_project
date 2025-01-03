@@ -180,8 +180,7 @@ First, I want to create functions that will help me drop duplicates, merge two d
 ### What teams improved the most over the time period? 
 In this case, we use Year-Over-Year Improvements (YoY). And since, the teams played different number of matches, we normalize Points Based on Total Matches Played and then divide the points by the total matches played in each season.
 
-![alt text](image-3.png)
-
+![alt text](image-15.png)
 The most consistent improver is Napoli with a total YoY improvement of 0.9474 points.
 
 ### Team Playing Style Analysis
@@ -213,7 +212,7 @@ Aggregate player's data over time
 
 ![alt text](image-11.png)
 
-### Player Age and, Overal Rating and  Potential
+### Player Age and, Overal Performance
 - Players are at different age in different seasons
 - We use birthday and date columns to calculate player age and analyze:
 - (a) Age distribution.
@@ -239,15 +238,58 @@ However, several limitations emerged during the analysis. Other seasons, leagues
 
 ## Conclusions
 
-The soccer database has five datasets, league, country, player, player attribute, team and team attribute. It is a detailed dabase for European major leagues covering several seasons from 2008/2009 t0 2015/2016.
+The soccer database comprises five datasets: leagues, countries, players, player attributes, teams, and team attributes. It is a detailed dataset covering European major leagues from the 2008/2009 season to the 2015/2016 season. 
 
-The project seeks to answer three questions, what teams improved the most over the time period, which players had the most penalties and which was the the most preferred leg for penalty-takers in 2016 among the players who scored more than the mean penalties in that year?
+This project aimed to answer four key questions:  
+1. **What is the league table for the four major European leagues during the 2015/2016 season?**  
+2. **Which are the top three teams for each league in the 2015/2016 season?**  
+3. **Which teams improved the most over the analyzed period?**  
+4. **What is the peak performance age or age group for most players?**  
 
-In attempting to find solutions to the question, each dataset was examineed for inconsistencies, colomn names, corrected, missing values replace or droped in certain datasets before they were finally merged and cleaned. Visual presentations created and inteprated.
+In addition, the following insights were also discovered:  
+- Team playing style analysis.  
+- Comparison of playing styles with performance metrics.  
+- League-level style analysis.  
+- Trends in player attributes over multiple seasons.  
+- Analysis of player development over time.  
 
-From the analysis and visualization, Richie Lambert is the player who scored most of the penalties. I also found that Paris Saint-Germain is the most improved team over the period of time given, followed by Napoli and Cracovia being the in the third position. Moreover, the findings also indicate that most of the penalty takers in 2016 preferred right leg compared to the right leg. The findings also shows that the distribution of the number of goals scored in the two seasons are right skewed.
+To address these questions, the datasets were examined and cleaned. This process involved identifying inconsistencies, renaming columns for clarity, handling missing values (either replacing or dropping them), merging datasets, and conducting a final cleanup. Visualizations were then created to present and interpret the findings.
 
-Whereas I was able to show that there is a correltaion between the number of goals scored in the two extreme seasons (2008/2009 and 2015/2016), theer are other seasons that were not considered. There is likelihood that a team that improved between the two seasons might not have improved in the seasons prior 2015/2016. Goal difference between the two seasons was used as a measured of improvement in performance because the ultimate objective of team managers, players and teams is to improve to score goals, but there could be criteria for measuring performance.
+#### Key Insights and Findings  
+
+1. **Goal Distribution**  
+   - The distribution of goals across the seasons followed a fairly normal pattern.  
+
+2. **League Champions (2015/2016)**  
+   - **English Premier League**: Leicester City emerged as champions with 81 points, followed by Arsenal with 71 points.  
+   - **French Ligue 1**: Paris Saint-Germain dominated with 96 points, while Olympique Lyonnais secured second place with 65 points.  
+   - **Spanish La Liga**: FC Barcelona claimed the title with 91 points, narrowly ahead of Real Madrid CF with 90 points.  
+   - **Italian Serie A**: Juventus triumphed with 81 points, while Napoli closely followed with 82 points.  
+
+3. **Most Improved Teams**  
+   - Based on year-over-year (YoY) improvements, Napoli (Serie A) demonstrated the most significant growth, with a total YoY improvement of 0.9474 points. Paris Saint-Germain (Ligue 1) ranked second, and Borussia Mönchengladbach (Bundesliga) ranked third.  
+
+4. **Team Playing Styles**  
+   - Radar chart analysis revealed that offensive, defensive, and balanced styles, as well as balanced-to-offensive styles, were the most common.  
+   - Offensive and balanced styles were the most effective, producing positive goal differences (GD).  
+   - Specific league trends:  
+     - Italian Serie A, Scottish Premier League, and English Premier League exhibited higher buildup play speeds, indicating faster playing styles.  
+     - Serie A teams emphasized chance creation through passing and shooting.  
+
+5. **Player Attribute Development**  
+   - Using Mikel Arteta as an example, attributes like stamina, acceleration, and sprint speed declined with age, while short passing and ball control remained relatively stable up to a certain age limit.  
+   - For Cristiano Ronaldo and Lionel Messi:  
+     - Overall ratings, finishing, and positioning trends were balanced for both players during 2008–2016.  
+     - Messi’s dribbling remained steady, while Ronaldo’s declined slightly.  
+     - Messi’s stamina was consistently lower than Ronaldo’s throughout the period.  
+     - Free kick accuracy improved for Messi, surpassing Ronaldo’s performance after 2012.  
+
+6. **Peak Performance Age**  
+   - Most players reached their maximum rating at age 24 or higher.  
+   - The peak age group for maximum performance was 24–27 years, while the peak mean age group was 27–30 years.  
+
+#### Future Directions  
+While this analysis uncovered significant insights, the dataset offers potential for further exploration. Areas of interest include examining player archetypes in greater depth and visualizing attribute means for each archetype to identify patterns and trends more comprehensively.
 
 ## Skills learned
 
