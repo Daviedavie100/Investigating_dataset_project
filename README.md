@@ -182,9 +182,10 @@ In this case, we use Year-Over-Year Improvements (YoY). And since, the teams pla
 
 ![alt text](image-3.png)
 
+The most consistent improver is Napoli with a total YoY improvement of 0.9474 points.
 
-
-
+### Team Playing Style Analysis
+![alt text](image-4.png)    ![alt text](image-6.png)   ![alt text](image-7.png)
 
 
 ## Limitations
