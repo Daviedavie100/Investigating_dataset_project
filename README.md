@@ -187,6 +187,49 @@ The most consistent improver is Napoli with a total YoY improvement of 0.9474 po
 ### Team Playing Style Analysis
 ![alt text](image-4.png)    ![alt text](image-6.png)   ![alt text](image-7.png)
 
+### Comparing Playing Style with Performance Metrics
+![alt text](image-5.png)
+
+Radar charts helps to identify the offensive, defensive, or balanced styles of each cluster. From the performance metrics, offensive and balanced styles are the most effective playing styles
+
+### League-Level Style Analysis
+This is to assess the dominant strategies in different leagues.
+
+![alt text](image-8.png)
+
+- Italy Serie A, Scotland Premeir League and England Premier League have higher buildUpPlaySpeed, indicating a faster playing style.
+- Italy Serie A focuses more on chanceCreationPassing and chanceCreationShooting.
+
+### Tracking trends of the Player Attributes throughout the seasons
+
+![alt text](image-9.png)
+
+### Analyzing Player Development over time
+Aggregate player's data over time
+
+![alt text](image-10.png)
+
+### Comparison betweeen Cristiano Ronaldo and Lionel Messi Development: Period 2008-2016
+
+![alt text](image-11.png)
+
+### Player Age and, Overal Rating and  Potential
+- Players are at different age in different seasons
+- We use birthday and date columns to calculate player age and analyze:
+- (a) Age distribution.
+- (b) Peak performance age for players.
+
+#### (a) Age distribution
+
+![alt text](image-12.png)
+
+#### (b) Peak performance age for players
+- We identify (i) at what age a player attains Maximum rating (ii) the age with the highest average ratings.
+##### AGE
+![alt text](image-13.png)
+
+##### AGE GROUP
+![alt text](image-14.png)
 
 ## Limitations
 
