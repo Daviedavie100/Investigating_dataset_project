@@ -174,9 +174,18 @@ First, I want to create functions that will help me drop duplicates, merge two d
 |    20 | Hellas Verona |   38 |   5 |  13 |  20 |    28 |   34 |   63 |  -29 |    0.894737 |
 
 
-The top 3 most improved teams are Paris Saint_Germain, Napoli and Cracovia.
+### Top 3 teams from each league in 2015/2016 season
+![alt text](image-2.png) 
 
-![image](https://user-images.githubusercontent.com/7541585/193405315-144e92ff-95ab-474a-8848-2ad62d4a794c.png)
+### What teams improved the most over the time period? 
+In this case, we use Year-Over-Year Improvements (YoY). And since, the teams played different number of matches, we normalize Points Based on Total Matches Played and then divide the points by the total matches played in each season.
+
+![alt text](image-3.png)
+
+
+
+
+
 
 ## Limitations
 
