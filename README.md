@@ -53,7 +53,7 @@ In this project, I will analyze a soccer dataset [here](https://www.kaggle.com/d
 
 ## Dataset Description
 
-In this project, I willl be analysing ultimate soccer [dataset](https://www.kaggle.com/datasets/hugomathien/soccer), which is an open-source dataset in kaggle. The dataset is a one .sql file comprising _seven tables_, each with different(unique) but interrelated features. 
+In this project, I will be analyzing ultimate soccer [dataset](https://www.kaggle.com/datasets/hugomathien/soccer), which is an open-source dataset in kaggle. The dataset is a one .sql file comprising _seven tables_, each with different(unique) but interrelated features. 
 
 - **Country table** has 11 European countries. 
 - **League table** has 11 lead championship names. The country and league tables are related by their ID. 
@@ -65,7 +65,7 @@ In this project, I willl be analysing ultimate soccer [dataset](https://www.kagg
 
 ## Data Cleaning
 
-First, I want to create functions that will help me drop duplicates, merge two datasets, change data type, remove missing rows, drop unnecessary columns, then proceed to to merge the country data to that for league. I will correct the league name for Germany 1. Bundesliga to Germany Bundesliga 1. I will also change the name column for both the country data and league data, and also make the datafrmaes have the same dimensions and finally merge the two dataframes into country_league data using the country id as the key
+First, I want to create functions that will help me drop duplicates, merge two datasets, change data type, remove missing rows, drop unnecessary columns, then proceed to merge the country data to that for league. I will correct the league name for Germany 1. Bundesliga to Germany Bundesliga 1. I will also change the name column for both the country data and league data, and also make the datafrmaes have the same dimensions and finally merge the two dataframes into country_league data using the country id as the key
 
 ## Findings
 
