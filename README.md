@@ -71,7 +71,7 @@ First, I want to create functions that will help me drop duplicates, merge two d
 ## Findings
 
 ### The distribution of goals throughout the seasons
-![alt text](image-1.png) 
+![alt text](img/image-1.png) 
 
 ### League table for 4 major leagues in Europe during 2015/2016 season
 
@@ -176,42 +176,42 @@ First, I want to create functions that will help me drop duplicates, merge two d
 
 
 ### Top 3 teams from each league in 2015/2016 season
-![alt text](image-2.png) 
+![alt text](img/image-2.png) 
 
 ### What teams improved the most over the period? 
 In this case, we use Year-Over-Year Improvements (YoY). And since, the teams played different number of matches, we normalize Points Based on Total Matches Played and then divide the points by the total matches played in each season.
 
-![alt text](image-15.png)
+![alt text](img/image-15.png)
 The most consistent improver is Napoli with a total YoY improvement of 0.9474 points.
 
 ### Team Playing Style Analysis
-![alt text](image-4.png)    ![alt text](image-6.png)   ![alt text](image-7.png)
+![alt text](img/image-4.png)    ![alt text](img/image-6.png)   ![alt text](img/image-7.png)
 
 ### Comparing Playing Style with Performance Metrics
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 Radar charts help to identify the offensive, defensive, or balanced styles of each cluster. From the performance metrics, offensive and balanced styles are the most effective playing styles
 
 ### League-Level Style Analysis
 This is to assess the dominant strategies in different leagues.
 
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 
 - Italy Serie A, Scotland Premier League, and England Premier League have higher buildUpPlaySpeed, indicating a faster playing style.
 - Italy Serie A focuses more on chanceCreationPassing and chanceCreationShooting.
 
 ### Tracking trends of the Player Attributes throughout the seasons
 
-![alt text](image-9.png)
+![alt text](img/image-9.png)
 
 ### Analyzing Player Development over time
 Aggregate player's data over time
 
-![alt text](image-10.png)
+![alt text](img/image-10.png)
 
 ### Comparison between Cristiano Ronaldo and Lionel Messi Development: Period 2008-2016
 
-![alt text](image-11.png)
+![alt text](img/image-11.png)
 
 ### Player Age and, Overal Performance
 - Players are at different ages in different seasons
@@ -221,15 +221,15 @@ Aggregate player's data over time
 
 #### (a) Age distribution
 
-![alt text](image-12.png)
+![alt text](img/image-12.png)
 
 #### (b) Peak performance age for players
 - We identify (i) at what age a player attains Maximum rating (ii) the age with the highest average ratings.
 ##### AGE
-![alt text](image-13.png)
+![alt text](img/image-13.png)
 
 ##### AGE GROUP
-![alt text](image-14.png)
+![alt text](img/image-14.png)
 
 ## Limitations
 
